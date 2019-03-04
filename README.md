@@ -10,7 +10,7 @@ Alle Aufgaben für die Toolumgebung wurden hiermit erledigt.
 
 - Visual Studio Code Installiert.
   - Mit GitHub / Bash eingerichtet
-[Vagrantfile] (https://github.com/Kaniterror/M300-Services/blob/master/Vagrantfile)
+[Vagrantfile](https://github.com/Kaniterror/M300-Services/blob/master/Vagrantfile)
 - Eigenes Repository erstellt.
     - Erster Upload getestet.
 Hat alles nach Anleitung geklappt.
