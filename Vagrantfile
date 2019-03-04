@@ -12,7 +12,8 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.define "Active Directory"
+  config.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
   config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

@@ -1,4 +1,4 @@
-# M300-Services LB2 DF 25.02.2019
+# M300-Services Hauptdokumentation + LB2 DF 25.02.2019
 
 
 ### GitHub Account erstellt
@@ -45,6 +45,8 @@ Mark Down Struktur ist für mich auch etwas komplett neues, welches aber mit ein
   - Systemsicherheit
 Hatte ich diverse Module, aber auch Praxis-Bezug.
 
+### Vagrant AWS Plugin
+  - Habe ich über den Befehl "vagrant plugin install vagrant-aws" installiert.
 
 ### Vagrant Info - Sammlung: 
   - vagrant init - Initialisiert am aktuellen Pfad eine Vagrant Umgebung und erstellt ein Vagrantfile
@@ -56,3 +58,6 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - vagrant destroy - Stoppt die VM und löscht sie.
 ### Vagrant Config Detail Infos: 
   - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
+  - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
+
+## LB2 Projekt 
