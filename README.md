@@ -15,16 +15,19 @@
   - Vagrant noch nicht gekannt, Funktionen sehr praktisch und nicht zu schwierig.
 [Vagrantfile](https://github.com/Kaniterror/M300-Services/blob/master/Vagrantfile)
 
-### Visual Studio Code Installiert.
+### Visual Studio Code Installiert
   - Mit GitHub / Bash eingerichtet
   - Probleme beim Verknüpfen mit Bash, Repository neu geladen -> hat Problem gelöst.
 
-### Eigenes Repository erstellt.
+### Eigenes Repository erstellt
    - Repository auf NB erstellt
    - SSH Key generiert und hinterlegt
-    - Erster Upload getestet.
+   - Erster Upload getestet.
 Hat alles nach Anleitung geklappt.
 Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
+
+### Markdown Editor
+  - Visual Studio funktioniert prima, habe meine Dokumentation nachträglich darüber strukturiert. Ich habe alle benötigten Elemente an einem Ort.
 
 ### Wissensstand:
   - Virtualisierungen
@@ -52,4 +55,4 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - vagrant halt - Stoppt laufende VM
   - vagrant destroy - Stoppt die VM und löscht sie.
 ### Vagrant Config Detail Infos: 
-  - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welches OS verwendet wird.
+  - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
