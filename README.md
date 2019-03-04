@@ -8,7 +8,9 @@
 ### VirtualBox Installiert
   - div. Linux VMs mit Virtualbox Installiert
   - VirtualBox war neu für mich, VMWare Workstation kenne ich bereits. Funktionen sind sehr ähnlich.
-  
+
+### Vagrant WebServer
+  - Vagrant Apache Server Installiert, nach Anleitung keine Probleme festgestellt, vom Client aus Verbindung auf 127.0.0.1 Problemlos funktioniert.
 
 ### Vagrant Installiert
   - div. VMs mit Vagrant Installiert
@@ -61,7 +63,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
 
 ## LB2 Projekt 
-  - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2
+  - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt XXXXXX
   - 
 
