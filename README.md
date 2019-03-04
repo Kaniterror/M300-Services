@@ -26,6 +26,22 @@
 Hat alles nach Anleitung geklappt.
 Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
 
+### Wissensstand:
+  - Virtualisierungen
+Ich arbeite bereits viel mit Virtuellen Maschinen, hauptsächlich aber mit GUI basierten Systemen. Mit der Benutzung von Vagrant kommen für mich viele neue Möglichkeiten hinzu.
+  - Linux
+Ich arbeite nie mit Linux, mein ganzes Linux-Wissen habe ich aus einem ÜK-Modul. Dieses Wissen muss aber mithilfe von Google wieder aufgefrischt werden.
+  - Vagrant
+Noch nie von Vagrant gehört, finde es sehr praktisch für Virtualisierungstests.
+  - Versionsverwaltung
+Mit Versionsverwaltungen habe ich ausser Cloud-Geschichten noch keine Erfahrungen gesammelt, es ist relativ neu für mich.
+  - Git
+Ich habe schon davon gehört, selbst verwende ich es aber zum ersten mal. Finde es bis jetzt sehr praktisch.
+  - Mark Down
+Mark Down Struktur ist für mich auch etwas komplett neues, welches aber mit ein bisschen Recherche, recht gut von der Hand geht.
+  - Systemsicherheit
+Hatte ich diverse Module, aber auch Praxis-Bezug.
+
 
 ### Vagrant Info - Sammlung: 
   - vagrant init - Initialisiert am aktuellen Pfad eine Vagrant Umgebung und erstellt ein Vagrantfile
