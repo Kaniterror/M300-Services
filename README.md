@@ -19,3 +19,13 @@
     - Erster Upload getestet.
 Hat alles nach Anleitung geklappt.
 Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
+
+
+- Vagrant Infos: 
+  - vagrant init - Initialisiert am aktuellen Pfad eine Vagrant Umgebung und erstellt ein Vagrantfile
+  - vagrant up - Erstellt und konfiguriert eine neue VM, anhand der Konfigdatei 
+  - vagrant ssh - Stellt Verbindung via SSH zu einer gewählten VM auf
+  - vagrant status - Zeigt aktuellen Stand der VM an
+  - vagrant port - Zeigt alle Forwarded Ports der VM an
+  - vagrant halt - Stoppt laufende VM
+  - vagrant destroy - Stoppt die VM und löscht sie.
