@@ -1,4 +1,4 @@
-# M300-Services Hauptdokumentation + LB2 DF 25.02.2019
+# M300-Services Hauptdokumentation + LB2 DF 04.03.2019
 
 
 ### GitHub Account erstellt
@@ -61,3 +61,19 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
 
 ## LB2 Projekt 
+  - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2
+  - Client VM via Vagrant erzeugt XXXXXX
+
++---------------------------------------------------------------+
+! DinoPC Schulnetz 10.71.13.159 und Privates Netz 192.168.55.1  !                 
+! Port: 8080 (192.168.220.101:80)                               !	
+!                                                               !	
+!    +--------------------+          +---------------------+    !
+!    ! Active Directory   !          ! Test Client         !    !       
+!    ! Host: web01        !          ! Host: db01          !    !
+!    ! IP: 192.168.55.101 ! <------> ! IP: 192.168.220.100 !    !
+!    ! Port: 80           !          ! Port 3306           !    !
+!    ! Nat: XXXX          !          ! Nat: XXX            !    !
+!    +--------------------+          +---------------------+    !
+!                                                               !	
++---------------------------------------------------------------+
