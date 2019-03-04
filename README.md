@@ -12,7 +12,7 @@
   - div. VMs mit Vagrant Installiert
 [Vagrantfile](https://github.com/Kaniterror/M300-Services/blob/master/Vagrantfile)
 
--Visual Studio Code Installiert.
+- Visual Studio Code Installiert.
   - Mit GitHub / Bash eingerichtet
 
 - Eigenes Repository erstellt.
