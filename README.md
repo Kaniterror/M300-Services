@@ -65,6 +65,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 ## LB2 Projekt 
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt XXXXXX
+  - Server AD aufgesetzt test.local
   
 
     +---------------------------------------------------------------+
