@@ -83,3 +83,4 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 
 ## Commands
   - test
+  - UFW:
