@@ -62,7 +62,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
 
-## LB2 Projekt 
+## LB2 Projekt nur Probleme
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt XXXXXX
   - Server AD aufgesetzt test.local
@@ -72,7 +72,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint Probleme zu geben erneut.
   - Ich habe jetzt mein komplettes Vagrant file gelöscht weil es plötzlich nicht mehr geht. Selbst die Backupfiles welche 100% funktionierten gehen nicht mehr.
   
-## Netzwerkplan
+## Netzwerkplan Idee
                 +---------------------------------------------------------------+
                 ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 192.168.55.1  !                 
                 ! Port: 8080 (192.168.220.101:80)                               !	
