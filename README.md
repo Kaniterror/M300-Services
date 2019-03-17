@@ -74,8 +74,8 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   
 ## Netzwerkplan Idee
                 +---------------------------------------------------------------+
-                ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 192.168.55.1  !                 
-                ! Port: 8080 (192.168.220.101:80)                               !	
+                ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 10.0.2.1      !                 
+                ! Port: 8080                                                    !	
                 !                                                               !	
                 !    +--------------------+          +---------------------+    !
                 !    ! Active Directory   !          ! Test Client         !    !       
