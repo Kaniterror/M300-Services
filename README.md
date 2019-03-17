@@ -69,7 +69,8 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - Nachdem ich einen neuen Notebook im Geschäft erhalten habe welcher ein verändertes Benutzerprofil aufwies habe ich und unser Applikationsentwickler 5 Stunden lang probiert diese Toolumgebung zu mirgieren oder neu zu installieren beides hat nicht funktioniert.
   - Zudem habe ich von einem Mitschüler erfahren das die Umgebung auf Linux basieren soll. (Obwohl ich zuvor die Lehrperson gefragt habe ob ein WinUmgebung auch gehen würde)
   - Erneut habe ich mit mit dem Alten Notebook probiert die aufgetragene LB2 zu absolvieren.
-  - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint probleme zu geben erneut.
+  - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint Probleme zu geben erneut.
+  - Ich habe jetzt mein komplettes Vagrant file gelöscht weil es plötzlich nicht mehr geht. Selbst die Backupfiles welche 100% funktionierten gehen nicht mehr.
   
 ## Netzwerkplan
                 +---------------------------------------------------------------+
