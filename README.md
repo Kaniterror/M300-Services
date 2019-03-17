@@ -67,6 +67,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - Client VM via Vagrant erzeugt XXXXXX
   - Server AD aufgesetzt test.local
   
+  
 
     +---------------------------------------------------------------+
     ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 192.168.55.1  !                 
@@ -83,6 +84,3 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
     +---------------------------------------------------------------+
 
 ## Commands
-  - test
-  - UFW:
-  - luala
