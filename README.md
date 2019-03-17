@@ -92,3 +92,4 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 ## LB2 Projekt die 23
 - Ich möchte einen Linux Client via DHCP welchen ich auf einem Linux Server installiere verbinden.
 - Ich habe jetzt einen Linux Server installiert welcher aber dann nicht direkt via Vagrant das ISC-dhcp-Server Paket installieren konnte.
+- Zudem habe ich einen Linux Client installiert welcher die IP-Adresse vom Linux Server - DHCP-Dienst beziehen soll.
