@@ -80,8 +80,8 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 !    +--------------------+          +---------------------+    !
                 !    ! Active Directory   !          ! Test Client         !    !       
                 !    ! Host: web01        !          ! Host: db01          !    !
-                !    ! IP: 192.168.55.101 ! <------> ! IP: 192.168.220.100 !    !
-                !    ! Port: 80           !          ! Port 3306           !    !
+                !    ! IP: 10.0.2.10      ! <------> ! IP: 10.0.2.101      !    !
+                !    ! Port: 80           !          ! Port 80             !    !
                 !    ! Nat: XXXX          !          ! Nat: XXX            !    !
                 !    +--------------------+          +---------------------+    !
                 !                                                               !	
