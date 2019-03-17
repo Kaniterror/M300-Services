@@ -66,6 +66,10 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt XXXXXX
   - Server AD aufgesetzt test.local
+  - Nachdem ich einen neuen Notebook im Geschäft erhalten habe welcher ein verändertes Benutzerprofil aufwies habe ich und unser Applikationsentwickler 5 Stunden lang probiert diese Toolumgebung zu mirgieren oder neu zu installieren beides hat nicht funktioniert.
+  - Zudem habe ich von einem Mitschüler erfahren das die Umgebung auf Linux basieren soll. (Obwohl ich zuvor die Lehrperson gefragt habe ob ein WinUmgebung auch gehen würde)
+  - Erneut habe ich mit mit dem Alten Notebook probiert daran die aufgetragene LB2 zu absolvieren.
+  - 
   
 ## Netzwerkplan
                 +---------------------------------------------------------------+
