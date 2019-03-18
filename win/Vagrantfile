@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "Active Directory" do |ad|
   ad.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
   ad.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
+  # ad.vm.network "private_network", ip: "10.0.2.10"
   ad.vm.provider "virtualbox" do |vb|
   vb.memory = "4096"
   end
@@ -26,6 +27,7 @@ end
   config.vm.define "WinClient" do |wc|
   wc.vm.box = "inclusivedesign/windows10-eval"
   wc.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
+ # wc.vm.network "private_network", ip: "10.0.2.101"
   wc.vm.provider "virtualbox" do |vb|
   vb.memory = "4096"
   end
