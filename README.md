@@ -94,4 +94,5 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 - Ich habe jetzt einen Linux Server installiert welcher aber dann nicht direkt via Vagrant das ISC-dhcp-Server Paket installieren konnte.
 - Zudem habe ich einen Linux Client installiert welcher die IP-Adresse vom Linux Server - DHCP-Dienst beziehen soll.
 - Ich habe jetzt erneut einen Windows Server und einen Windows Client installiert, dabei hatte ich diverse Probleme mit dem Code
+- Nach langem Bug fixen habe ich es geschafft den Benutzer: Hans mit dem Kennwort: Agent234$ in die Domaine + DNS einzubinden
   
