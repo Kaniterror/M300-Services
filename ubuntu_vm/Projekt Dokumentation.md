@@ -49,7 +49,7 @@ Mark Down Struktur ist für mich auch etwas komplett neues, welches aber mit ein
   - Systemsicherheit
 Hatte ich diverse Module, aber auch Praxis-Bezug.
 
-### Wissenszuwachs
+### Wissenszuwachs:
 - Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
 - Vagrant funktioniert besser mit Linux
 - Mit Windows hat man immer wieder Probleme via Shell eingaben
