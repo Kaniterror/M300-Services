@@ -71,6 +71,11 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 - Zudem habe ich einen Linux Client installiert welcher die IP-Adresse vom Linux Server - DHCP-Dienst beziehen soll.
 - Damit der DHCP konfiguriert werden kann, passe ich die DHCP.conf an und lade diese dann via Vagrant in die VM.
 
+## Testing
+- 1
+- 2
+- 3
+
 ## Netzwerkplan Linux
                 +---------------------------------------------------------------+
                 ! DinoPC Private                                                !                 
@@ -86,13 +91,14 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 !                                                               !	
                 +---------------------------------------------------------------+
 
-## Reflexion & Wissenszuwachs
+## Wissenszuwachs
 - Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
 - Vagrant funktioniert besser mit Linux
 - Mit Windows hat man immer wieder Probleme via Shell eingaben
 - AD Profile können Probleme machen mit dieser Testumgebung
 - Ich habe eine komplett neue Deployment-Umgebung kennengerlernt
 - Meine Linux Kenntnisse wurden aufgefrischt 
+- Nützlich um MASSEN an VMs zu erstellen zb. für Testing
 
 ## LB2 Projekt mit Windows - Fehlgeschlagen
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
@@ -120,5 +126,8 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 !                                                               !	
                 +---------------------------------------------------------------+
   
-
-  
+## Reflexion
+- Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können.
+- Viel ärger hatte ich wegen eines Notebook wechsels inklusive AD-Profile anpassungen von unserem Geschäft aus.
+- Bis jetzt finde ich dieses Modul eines der besseren Module, weil sehr viel ausprobiert werden kann.
+- Es hat mich zwar viel mehr Aufwand gekostet wie andere Module, aber ich habe dabei auch sehr viel gelernt.
