@@ -49,6 +49,15 @@ Mark Down Struktur ist für mich auch etwas komplett neues, welches aber mit ein
   - Systemsicherheit
 Hatte ich diverse Module, aber auch Praxis-Bezug.
 
+## Wissenszuwachs
+- Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
+- Vagrant funktioniert besser mit Linux
+- Mit Windows hat man immer wieder Probleme via Shell eingaben
+- AD Profile können Probleme machen mit dieser Testumgebung
+- Ich habe eine komplett neue Deployment-Umgebung kennengerlernt
+- Meine Linux Kenntnisse wurden aufgefrischt 
+- Nützlich um MASSEN an VMs zu erstellen zb. für Testing
+
 ### Vagrant AWS Plugin
   - Habe ich über den Befehl "vagrant plugin install vagrant-aws" installiert.
 
@@ -90,15 +99,6 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 !    +--------------------+          +---------------------+    !
                 !                                                               !	
                 +---------------------------------------------------------------+
-
-## Wissenszuwachs
-- Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
-- Vagrant funktioniert besser mit Linux
-- Mit Windows hat man immer wieder Probleme via Shell eingaben
-- AD Profile können Probleme machen mit dieser Testumgebung
-- Ich habe eine komplett neue Deployment-Umgebung kennengerlernt
-- Meine Linux Kenntnisse wurden aufgefrischt 
-- Nützlich um MASSEN an VMs zu erstellen zb. für Testing
 
 ## LB2 Projekt mit Windows - Fehlgeschlagen
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
