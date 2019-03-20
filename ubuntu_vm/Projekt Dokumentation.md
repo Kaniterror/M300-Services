@@ -73,11 +73,11 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 
 ## Netzwerkplan Linux
                 +---------------------------------------------------------------+
-                ! DinoPC Private   10.71.13.159 und Privates Netz 10.0.2.1      !                 
+                ! DinoPC Private                                                !                 
                 !                                                               !	
                 !                                                               !	
                 !    +--------------------+          +---------------------+    !
-                !    !DHCP Server         !          ! Test Client         !    !       
+                !    ! DHCP Server        !          ! Test Client         !    !       
                 !    ! Host: SRV01        !          ! Host: WS01          !    !
                 !    ! IP: 192.168.1.10   ! <------> ! IP: 192.168.1.101   !    !
                 !    ! Port: 80           !          ! Port 80             !    !
@@ -86,11 +86,13 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 !                                                               !	
                 +---------------------------------------------------------------+
 
-## Reflexion
+## Reflexion & Wissenszuwachs
 - Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
 - Vagrant funktioniert besser mit Linux
 - Mit Windows hat man immer wieder Probleme via Shell eingaben
 - AD Profile können Probleme machen mit dieser Testumgebung
+- Ich habe eine komplett neue Deployment-Umgebung kennengerlernt
+- Meine Linux Kenntnisse wurden aufgefrischt 
 
 ## LB2 Projekt mit Windows - Fehlgeschlagen
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
