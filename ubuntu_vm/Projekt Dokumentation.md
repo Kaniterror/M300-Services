@@ -1,10 +1,12 @@
-# M300-Services Hauptdokumentation + LB2 DF 04.03.2019
+# M300-Services Hauptdokumentation + LB2 DF 20.03.2019
 
 
 ### GitHub Account erstellt
   - Account erstellt wie verlangt. Keine Probleme dabei aufgetreten.  
+
 ### Git Client Installiert
   - Nach Anleitung Problemlos Installiert. Sowie Portable getestet.  
+
 ### VirtualBox Installiert
   - div. Linux VMs mit Virtualbox Installiert
   - VirtualBox war neu für mich, VMWare Workstation kenne ich bereits. Funktionen sind sehr ähnlich.
@@ -58,37 +60,10 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - vagrant port - Zeigt alle Forwarded Ports der VM an
   - vagrant halt - Stoppt laufende VM
   - vagrant destroy - Stoppt die VM und löscht sie.
+
 ### Vagrant Config Detail Infos: 
   - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
-
-## LB2 Projekt mit Windows - Fehlgeschlagen
-  - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
-  - Client VM via Vagrant erzeugt
-  - Server AD aufgesetzt test.local
-  - Ich habe jetzt erneut einen Windows Server und einen Windows Client installiert, dabei hatte ich diverse Probleme mit dem Code
-  - Es scheint mir nicht möglich das ganze via Vagrant zu installieren.
-  - Nachdem ich einen neuen Notebook im Geschäft erhalten habe welcher ein verändertes Benutzerprofil aufwies habe ich und unser Applikationsentwickler 5 Stunden lang probiert diese Toolumgebung zu mirgieren oder neu zu installieren beides hat nicht funktioniert.
-  - Erneut habe ich mit mit dem Alten Notebook probiert die aufgetragene LB2 zu absolvieren.
-  - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint Probleme zu geben erneut.
-  - Ich habe jetzt mein komplettes Vagrant file gelöscht weil es plötzlich nicht mehr geht. Selbst die Backupfiles welche 100% funktionierten gehen nicht mehr.
-  
-## Netzwerkplan Idee mit Windows Umgebung
-                +---------------------------------------------------------------+
-                ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 10.0.2.1      !                 
-                ! Port: 8080                                                    !	
-                !                                                               !	
-                !    +--------------------+          +---------------------+    !
-                !    ! Active Directory   !          ! Test Client         !    !       
-                !    ! Host: web01        !          ! Host: db01          !    !
-                !    ! IP: 10.0.2.10      ! <------> ! IP: 10.0.2.101      !    !
-                !    ! Port: 80           !          ! Port 80             !    !
-                !    ! Nat: XXXX          !          ! Nat: XXX            !    !
-                !    +--------------------+          +---------------------+    !
-                !                                                               !	
-                +---------------------------------------------------------------+
-  
-
 
 ## LB2 Projekt Linux
 - Ich möchte einen Linux Client via DHCP welchen ich auf einem Linux Server installiere verbinden.
@@ -116,5 +91,32 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 - Vagrant funktioniert besser mit Linux
 - Mit Windows hat man immer wieder Probleme via Shell eingaben
 - AD Profile können Probleme machen mit dieser Testumgebung
+
+## LB2 Projekt mit Windows - Fehlgeschlagen
+  - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
+  - Client VM via Vagrant erzeugt
+  - Server AD aufgesetzt test.local
+  - Ich habe jetzt erneut einen Windows Server und einen Windows Client installiert, dabei hatte ich diverse Probleme mit dem Code
+  - Es scheint mir nicht möglich das ganze via Vagrant zu installieren.
+  - Nachdem ich einen neuen Notebook im Geschäft erhalten habe welcher ein verändertes Benutzerprofil aufwies habe ich und unser Applikationsentwickler 5 Stunden lang probiert diese Toolumgebung zu mirgieren oder neu zu installieren beides hat nicht funktioniert.
+  - Erneut habe ich mit mit dem Alten Notebook probiert die aufgetragene LB2 zu absolvieren.
+  - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint Probleme zu geben erneut.
+  - Ich habe jetzt mein komplettes Vagrant file gelöscht weil es plötzlich nicht mehr geht. Selbst die Backupfiles welche 100% funktionierten gehen nicht mehr.
+  
+## Netzwerkplan Idee mit Windows Umgebung
+                +---------------------------------------------------------------+
+                ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 10.0.2.1      !                 
+                ! Port: 8080                                                    !	
+                !                                                               !	
+                !    +--------------------+          +---------------------+    !
+                !    ! Active Directory   !          ! Test Client         !    !       
+                !    ! Host: web01        !          ! Host: db01          !    !
+                !    ! IP: 10.0.2.10      ! <------> ! IP: 10.0.2.101      !    !
+                !    ! Port: 80           !          ! Port 80             !    !
+                !    ! Nat: XXXX          !          ! Nat: XXX            !    !
+                !    +--------------------+          +---------------------+    !
+                !                                                               !	
+                +---------------------------------------------------------------+
+  
 
   
