@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/trusty64"
+  
+  # Install DHCP Server after Ubuntu VM creation
+  config.vm.provision "shell", inline: <<-SHELL
+      # Update packages after VM creation
+      sudo apt-get update
+      sudo apt-get upgrade
+
+      # Deploy DHCP Server installation
+      sudo apt-get install isc-dhcp-server
+
+      # Deploy DHCP Server configuration
+      
+    SHELL
+  
+  # upload dhcp configuration file for dhcp server
+  # replace default dhcp server configuration
+  config.vm.provision "file", source: "/CloudStation/ST16A/Module/M300/C/M300-Services/ubuntu_vm/file_upload/dhcp.conf", destination: "/etc/dhcp/"
+
+end
