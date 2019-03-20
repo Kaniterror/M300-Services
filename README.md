@@ -62,17 +62,18 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
 
-## LB2 Projekt nur Probleme
+## LB2 Projekt zuerst mit Windows dann doch mit Linux
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt
   - Server AD aufgesetzt test.local
+  - Ich habe jetzt erneut einen Windows Server und einen Windows Client installiert, dabei hatte ich diverse Probleme mit dem Code
+  - Es scheint mir nicht möglich das ganze via Vagrant zu installieren.
   - Nachdem ich einen neuen Notebook im Geschäft erhalten habe welcher ein verändertes Benutzerprofil aufwies habe ich und unser Applikationsentwickler 5 Stunden lang probiert diese Toolumgebung zu mirgieren oder neu zu installieren beides hat nicht funktioniert.
-  - Zudem habe ich von einem Mitschüler erfahren das die Umgebung auf Linux basieren soll. (Obwohl ich zuvor die Lehrperson gefragt habe ob ein WinUmgebung auch gehen würde)
   - Erneut habe ich mit mit dem Alten Notebook probiert die aufgetragene LB2 zu absolvieren.
   - Jetzt habe ich aber hier ein neues Problem mit Vagrant, es scheint Probleme zu geben erneut.
   - Ich habe jetzt mein komplettes Vagrant file gelöscht weil es plötzlich nicht mehr geht. Selbst die Backupfiles welche 100% funktionierten gehen nicht mehr.
   
-## Netzwerkplan Idee
+## Netzwerkplan Idee mit Windows Umgebung
                 +---------------------------------------------------------------+
                 ! DinoPC Schulnetz 10.71.13.159 und Privates Netz 10.0.2.1      !                 
                 ! Port: 8080                                                    !	
@@ -89,10 +90,29 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   
 
 
-## LB2 Projekt Versuch #027
+## LB2 Projekt Linux
 - Ich möchte einen Linux Client via DHCP welchen ich auf einem Linux Server installiere verbinden.
-- Ich habe jetzt einen Linux Server installiert welcher aber dann nicht direkt via Vagrant das ISC-dhcp-Server Paket installieren konnte.
+- Ich habe jetzt einen Linux Server installiert.
 - Zudem habe ich einen Linux Client installiert welcher die IP-Adresse vom Linux Server - DHCP-Dienst beziehen soll.
-- Ich habe jetzt erneut einen Windows Server und einen Windows Client installiert, dabei hatte ich diverse Probleme mit dem Code
-- Nach langem Bug fixen habe ich es geschafft den Benutzer: Hans mit dem Kennwort: Agent234$ in die Domaine + DNS einzubinden
+- Damit der DHCP konfiguriert werden kann, passe ich die DHCP.conf an und lade diese dann via Vagrant in die VM.
+
+## Netzwerkplan Linux
+                +---------------------------------------------------------------+
+                ! DinoPC Private   10.71.13.159 und Privates Netz 10.0.2.1      !                 
+                !                                                               !	
+                !                                                               !	
+                !    +--------------------+          +---------------------+    !
+                !    !DHCP Server         !          ! Test Client         !    !       
+                !    ! Host: SRV01        !          ! Host: WS01          !    !
+                !    ! IP: 192.168.1.10   ! <------> ! IP: 192.168.1.101   !    !
+                !    ! Port: 80           !          ! Port 80             !    !
+                !    ! Nat: XXXX          !          ! Nat: XXXX           !    !
+                !    +--------------------+          +---------------------+    !
+                !                                                               !	
+                +---------------------------------------------------------------+
+
+## Reflexion
+- 
+- 
+
   
