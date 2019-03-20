@@ -62,7 +62,7 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
   - config.vm.box = "ubuntu/bionic64" Hier wird bestimmt welche BOX von der Vagrant Cloud bezogen wird.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben.
 
-## LB2 Projekt zuerst mit Windows dann doch mit Linux
+## LB2 Projekt mit Windows - Fehlgeschlagen
   - Active Directory VM via Vagrant erzeugt mit Windows Server 2012 R2, hat eine weile gedauert in der TBZ.
   - Client VM via Vagrant erzeugt
   - Server AD aufgesetzt test.local
@@ -112,7 +112,9 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
                 +---------------------------------------------------------------+
 
 ## Reflexion
-- 
-- 
+- Vagrant kann sehr nützlich sein für das erstellen standartisiertet VMs
+- Vagrant funktioniert besser mit Linux
+- Mit Windows hat man immer wieder Probleme via Shell eingaben
+- AD Profile können Probleme machen mit dieser Testumgebung
 
   
