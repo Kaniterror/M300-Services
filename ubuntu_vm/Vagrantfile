@@ -21,8 +21,12 @@ Vagrant.configure("2") do |config|
       
     SHELL
   
+
   # upload dhcp configuration file for dhcp server, upload folder is "file_upload" requires a valid dhcp.conf file
   # replace default dhcp server configuration
-  config.vm.provision "file", source: "/CloudStation/ST16A/Module/M300/C/M300-Services/ubuntu_vm/file_upload/dhcp.conf", destination: "/etc/dhcp/"
-
+  #config.vm.provision "file", source: "/CloudStation/ST16A/Module/M300/C/M300-Services/ubuntu_vm/file_upload/dhcp.conf", destination: "/etc/dhcp/"
+  config.vm.provision :file do |file|
+    file.source      = 'C:\CloudStation\ST16A\Module\M300\C\M300-Services\ubuntu_vm\file_upload\dhcp.conf'
+    file.destination = '/etc/dhcp/'
+  end
 end

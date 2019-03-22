@@ -1,0 +1,27 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "ubuntu/bionic64"
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.synced_folder ".", "/var/www/html"
+  config.vm.provider "virtualbox" do |vb| 
+    vb.memory = "4096"
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    ufw allow 80/tcp
+    ufw allow from 127.0.0.1 to any port 22
+    ufw allow from 10.0.2.15 to any port 3306
+    apt-get update
+    APP_PASS="misterq123"
+    ROOT_PASS="misterq123"
+    APP_DB_PASS="misterq123"
+    echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | debconf-set-selections
+    echo "phpmyadmin phpmyadmin/app-password-confirm password $APP_PASS" | debconf-set-selections
+    echo "phpmyadmin phpmyadmin/mysql/admin-pass password $ROOT_PASS" | debconf-set-selections
+    echo "phpmyadmin phpmyadmin/mysql/app-pass password $APP_DB_PASS" | debconf-set-selections
+    echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf-set-selections
+    apt-get -y install apache2 mysql-server phpmyadmin
+    ufw enable
+  SHELL
+
+end
