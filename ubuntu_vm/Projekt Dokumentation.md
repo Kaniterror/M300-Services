@@ -79,11 +79,11 @@ Hatte ich diverse Module, aber auch Praxis-Bezug.
 - Ich habe jetzt einen Linux Server installiert.
 - Zudem habe ich einen Linux Client installiert welcher die IP-Adresse vom Linux Server - DHCP-Dienst beziehen soll.
 - Damit der DHCP konfiguriert werden kann, passe ich die DHCP.conf an und lade diese dann via Vagrant in die VM.
+- Probleme beim hochladen der config Datei.
+- Zusätzlich habe ich einen MySQL Server mit einer UFW installiert welchen ich aber auch nicht testen konnte, da ich wieder Probleme hatte.
 
 ## Testing
-- 1
-- 2
-- 3
+- Keine meiner Umgebungen konnte ich testen.
 
 ## Netzwerkplan Linux
                 +---------------------------------------------------------------+
