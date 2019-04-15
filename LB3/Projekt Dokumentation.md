@@ -62,17 +62,32 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - config.ssh.config Hier wird der Pfad des SSH Schlüssels angegeben
 
 ### Docker Befehle
-  - 
-  - 
+  - docker run -it ubuntu /bin/bash   Startet einen Container mit einer interaktiven Shell
+  - docker run -d ubuntu sleep 20
+  Startet einen Container, der im Hintergrund läuft und nach 20 Sekunden sich beendet
+  - docker run -d --rm ubuntu sleep 20
+  Hier löscht sich der Container nach 20 Sekunden.
+  - docker run -d ubuntu touch /tmp/lock
+  Startet einen Container und legt eine Datei an.
+  - docker ps -a
+  Zeigt Aktive und Beendete Container an
+  - docker images
+  Gibt Lokale Images aus
+  - docker rm `docker ps -a -q`
+  Alle beendeten COntainer werden gelöscht
+  - docker start [id]
+  Docker Container neu starten, Daten bleiben erhalten
+  - docker build -t mysql .
+  Erstellt Container als MYSQL
 ## Reflexion
-- Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
-- Viel ärger hatte ich wegen eines Notebook wechsels inklusive AD-Profile anpassungen von unserem Geschäft aus
-- Bis jetzt finde ich dieses Modul eines der besseren Module, weil sehr viel ausprobiert werden kann
-- Es hat mich zwar viel mehr Aufwand gekostet wie andere Module, aber ich habe dabei auch sehr viel gelernt
-- Ich weiss jetzt +/- was ein Container ist
-- Ich verstehe jetzt wie ein Container aufgebaut ist
-- Ich weiss jetzt wofür Container eingesetzt werden
-- Ich kann jetzt meine eigenen Container erstellen
-- Ich kenne jetzt Docker und dessen Möglichkeit Container zu Verwalten/erstellen/Löschen
-- Ich weiss jetzt wie ich Docker verwende
-- Ich verstehe den Ausdruck Microservices jetzt und was damit gemeint ist und wofür diese verwendet werden können
+  - Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
+  - Viel ärger hatte ich wegen eines Notebook wechsels inklusive AD-Profile anpassungen von unserem Geschäft aus
+  - Bis jetzt finde ich dieses Modul eines der besseren Module, weil sehr viel ausprobiert werden kann
+  - Es hat mich zwar viel mehr Aufwand gekostet wie andere Module, aber ich habe dabei auch sehr viel gelernt
+  - Ich weiss jetzt +/- was ein Container ist
+  - Ich verstehe jetzt wie ein Container aufgebaut ist
+  - Ich weiss jetzt wofür Container eingesetzt werden
+  - Ich kann jetzt meine eigenen Container erstellen
+  - Ich kenne jetzt Docker und dessen Möglichkeit Container zu Verwalten/erstellen/Löschen
+  - Ich weiss jetzt wie ich Docker verwende
+  - Ich verstehe den Ausdruck Microservices jetzt und was damit gemeint ist und wofür diese verwendet werden können
