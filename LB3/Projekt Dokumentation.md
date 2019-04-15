@@ -79,6 +79,9 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   Docker Container neu starten, Daten bleiben erhalten
   - docker build -t mysql .
   Erstellt Container als MYSQL
+  - docker network ls
+  Listet bestehende Netzwerke auf
+  
 ## Reflexion
   - Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
   - Viel ärger hatte ich wegen eines Notebook wechsels inklusive AD-Profile anpassungen von unserem Geschäft aus
