@@ -1,4 +1,4 @@
-# M300-Services Hauptdokumentation + LB3 DF 2019032520190417
+# M300-Services Hauptdokumentation + LB3 DF 20190417
 
 
 ### GitHub Account erstellt
