@@ -1,4 +1,4 @@
-version: '2.2'
+version: '1.0'
 
 services:
 
@@ -23,7 +23,7 @@ services:
         - 8080:80
     restart: on-failure
     environment:
-        MYSQL_ROOT_PASSWORD: dockerischlustig
+        MYSQL_ROOT_PASSWORD: docker123
     cpus: 1
     mem_limit: 1024m
 
@@ -36,7 +36,7 @@ services:
      - /var/lib/mysql
     restart: on-failure
     environment:
-     - MYSQL_ROOT_PASSWORD=dockerischlustig
+     - MYSQL_ROOT_PASSWORD=docker123
      - MYSQL_DATABASE=database
     cpus: 1
     mem_limit: 1024m

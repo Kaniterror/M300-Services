@@ -81,8 +81,22 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   Erstellt Container als MYSQL
   - docker network ls
   Listet bestehende Netzwerke auf
-  
-## Reflexion
+
+### Sicherheitsaspekte
+
+  - CPU Leistung limitiert: cpus: 1
+  - RAM Limitert: mem_limit: 1024m
+  - Neustart funktion: restart: on-failure
+  - SYSLOG Monitoring 
+
+### Testing
+  - Webserver erreichbar über localhost                                     Erfolgreich
+  - Datenbank "Test" ist über SQL ersichtlich nach Neustart                 Erfolgreich
+  - MySQL ist über PHPmyadmin erreichbar                                    Erfolgreich
+  - Monitoring via CAdvisor via Webbrowser funktioniert                     Erfolgreich
+  - Monitoring überschreitet limitierte Ressourcen Werte nicht              Erfolgreich
+
+### Reflexion
   - Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
   - Viel ärger hatte ich wegen eines Notebook wechsels inklusive AD-Profile anpassungen von unserem Geschäft aus
   - Bis jetzt finde ich dieses Modul eines der besseren Module, weil sehr viel ausprobiert werden kann
