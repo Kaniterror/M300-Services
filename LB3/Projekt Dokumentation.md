@@ -82,6 +82,9 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - docker network ls
   Listet bestehende Netzwerke auf
 
+### Projekt
+  - Webserver mit PHP, MYSQL und Monitoring mit GUI siehe docker-compose.yml
+
 ### Sicherheitsaspekte
 
   - CPU Leistung limitiert: `cpus: 1`
