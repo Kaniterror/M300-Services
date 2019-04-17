@@ -84,9 +84,9 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
 
 ### Sicherheitsaspekte
 
-  - CPU Leistung limitiert: cpus: 1
-  - RAM Limitert: mem_limit: 1024m
-  - Neustart funktion: restart: on-failure
+  - CPU Leistung limitiert: `cpus: 1`
+  - RAM Limitert: `mem_limit: 1024m`
+  - Neustart funktion: `restart: on-failure`
   - SYSLOG Monitoring 
 
 ### Testing
