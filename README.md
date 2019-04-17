@@ -3,3 +3,4 @@
 - Im Ordner "ubuntu_vm" befindet sich meine LB2 Abgabe inklusive Projektdokumentation. Leider funktioniert der DHCP Config Upload nicht.
 - Im Ordner "Mysql" befindet sich meine LB2 Abgabe, welche funktioniert
 - Im Ordner "winProjekt" befindet sich ein gescheitertes Windows Projekt
+- Im Ordner LB3 befinden sich alle von mir erarbeiteten Files der LB3
