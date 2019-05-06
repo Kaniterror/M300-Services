@@ -105,6 +105,7 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - Ich habe via Hands-On ein config.yaml generiert
   - Ich habe die Kubernetes Umgebung via Hands-On auf meinem Notebook generiert.
   - Kubernetes kümmert sich um Container und deren Verteilung zum Beispiel bei einer Cluster Umgebung.
+  - Bei der Aufgabe meine yml Datei in eine yaml Datei zu konvertieren scheiterte ich. 
 
 ### Reflexion
   - Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
