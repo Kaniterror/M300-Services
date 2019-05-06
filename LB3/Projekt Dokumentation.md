@@ -103,6 +103,7 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
 
 ### Kubernetes
   - Ich habe via Hands-On ein config.yaml generiert
+  - Ich konnte mich auch via http://localhost:32188 auf die Kubernetes Umgebung verbinden.
   - Ich habe die Kubernetes Umgebung via Hands-On auf meinem Notebook generiert.
   - Kubernetes kümmert sich um Container und deren Verteilung zum Beispiel bei einer Cluster Umgebung.
   - Bei der Aufgabe meine yml Datei in eine yaml Datei zu konvertieren scheiterte ich. 
