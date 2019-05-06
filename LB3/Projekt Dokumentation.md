@@ -37,6 +37,7 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - Vor diesem Modul hatte ich noch keinen Bezug zu Containern
   - Docker kannte ich auch noch nicht
   - Ich kannte Microservices noch nicht als solches
+
 ### Wissenszuwachs:
   - Ich weiss jetzt +/- was ein Container ist
   - Ich verstehe jetzt wie ein Container aufgebaut ist
@@ -45,6 +46,7 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - Ich kenne jetzt Docker und dessen Möglichkeit Container zu Verwalten/erstellen/Löschen
   - Ich weiss jetzt wie ich Docker verwende
   - Ich verstehe den Ausdruck Microservices jetzt und was damit gemeint ist und wofür diese verwendet werden können
+
 ### Vagrant AWS Plugin
   - Habe ich über den Befehl "vagrant plugin install vagrant-aws" installiert
 
@@ -98,6 +100,11 @@ Alle Aufgaben für die Toolumgebung 10 wurden hiermit erledigt.
   - MySQL ist über PHPmyadmin erreichbar                                    Erfolgreich
   - Monitoring via CAdvisor via Webbrowser funktioniert                     Erfolgreich
   - Monitoring überschreitet limitierte Ressourcen Werte nicht              Erfolgreich
+
+### Kubernetes
+  - Ich habe via Hands-On ein config.yaml generiert
+  - Ich habe die Kubernetes Umgebung via Hands-On auf meinem Notebook generiert.
+  - Kubernetes kümmert sich um Container und deren Verteilung zum Beispiel bei einer Cluster Umgebung.
 
 ### Reflexion
   - Ich habe sehr viele neue Dinge gelernt über Service Deployment, was am anfang eine Weile gedauert hat, um es zu verstehen und um damit arbeiten zu können
